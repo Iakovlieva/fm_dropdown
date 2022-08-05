@@ -45,7 +45,9 @@
 
 /*children li-s*/
  .sub-list-item,.right-sub-list-item,.right2-sub-list-item{
-    display:block; 
+
+    display:none;  /*поставила тут block щоб дивитися поки підбирала розміри та кольори і не прибрала((( */
+    
     margin-left: calc(-2*var(--padding-size));
  }
 
